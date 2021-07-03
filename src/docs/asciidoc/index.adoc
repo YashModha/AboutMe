@@ -1,5 +1,5 @@
 = Yash Modha
-modhayash6@gmail.com | Dublin, Ireland | <Your-LinkedIn-Address>
+modhayash6@gmail.com | Dublin, Ireland | https://www.linkedin.com/in/modha-yash
 
 == About Me
 - An individual who recently graduated and possess a MSc in Data Analytics degree.
@@ -9,3 +9,54 @@ modhayash6@gmail.com | Dublin, Ireland | <Your-LinkedIn-Address>
 - Currently looking for a suitable job to work with an employee who is open for growth.
 - Experienced with the latest cutting edge development tools and procedures.
 - Ready for taking up new challenges.
+
+== Education
+
+[width="100%",frame="topbot",options="header"]
+|======================
+|Degree                                               |School                                                      |GPA         |Graduation Year
+|Master of Science in Data Analytics                  |Dublin Business School                                      |67.28 (H2)  |June 2021
+|Bachelor’s of Engineering in Information Technology  |Thakur College Of Engineering and Technology, Mumbai India  |6.52 CGPA   |May 2019
+|======================
+
+== Skills
+
+[width="100%",frame="topbot",options=""]
+|======================
+|*Programing Languages*           | Python, MySQL, R, Java, HTML
+|*Tools and Frameworks*           | Rapid Miner, Tableau, Neo4j, SSMS, Microsoft excel
+|Technologies known               | Machine Learning, Deep Learning, Artificial Intelligence
+|*Specialization*                 | Data Mining, Text Mining, Data Visualization
+|======================
+
+== Projects
+
+=== Machine learning to aid mental health among youth during COVID-19 – Chatbot
+
+This research presents a comparative study of specialized deep learning and state of the art machine learning approaches
+for multiclass classification of six emotions: **joy, sadness, surprise, fear, love, anger**. Specialized deep learning
+algorithm **Bi-LSTM**; state of the art **H2O ANN**; traditional SVM and state of the art H2O Gradient Boosting Machines
+are applied on vectorised text. Cross validated performance using different vectorization techniques: text to sequences,
+word to vectors and TF-IDF are presented. The specialized Bi-LSTM on text to sequence vectorised data outperforms SVM
+and both outperform H2O ANN. A Gradient Boosted Machine age classifier is used to stratify test data. The traditional
+TF-IDF applied SVM outperforms the Bi-LSTM model on both Youth and Adult test data. The research is further extended
+to present a chatbot deployment of the emotion classifier by creating a **Flask API**.
+
+=== Smart Waste Management in Cities using Internet of Things
+
+Ultrasonic Sensor Detects the level of garbage in Dustbin and sends the data via an SMS to the authorities using a
+**GSM** module, along with this the Dustbin also sends the data dynamically to an app via Internet which shows live
+level of Dustbin. This project helps in saving fuel as the authorities do not need to go at the location where the
+Dustbins are not filled.
+
+== Certificates
+
+[width="100%",frame="topbot",options=""]
+|======================
+|Name                                                                                           |Issuing Authority      |Year
+|Tweet Emotion Recognition with Tensorflow                                                      |Coursera               |March 2021
+|Applied Text Mining and Sentiment Analysis with Python                                         |Udemy                  |March 2021
+|Sentiment Analysis, Beginner to Expert                                                         |Udemy                  |March 2021
+|National Program on Technology Enhanced Learning (NPTEL) Certification Course in Data Mining   |IIT                    |March 2018
+|Microsoft Technology Associate Security Fundamentals                                           |Microsoft              |May 2017
+|======================
