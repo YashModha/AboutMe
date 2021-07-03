@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Yash Modha</title>
+<date>2021-07-03</date>
+<author>
+<personname>
+<firstname>modhayash6@gmail.com | Dublin, Ireland | &lt;Your-LinkedIn-Address&gt;</firstname>
+</personname>
+</author>
+<authorinitials>m</authorinitials>
+</info>
+<section xml:id="about-me">
+<title>About Me</title>
+<itemizedlist>
+<listitem>
+<simpara>An individual who recently graduated and possess a MSc in Data Analytics degree.</simpara>
+</listitem>
+<listitem>
+<simpara>Very punctual, resilient, and quick learner.</simpara>
+</listitem>
+<listitem>
+<simpara>Always up for learning new technologies and skills.</simpara>
+</listitem>
+<listitem>
+<simpara>Adjustable with team-work and shows great co-ordination to meet the deadlines.</simpara>
+</listitem>
+<listitem>
+<simpara>Currently looking for a suitable job to work with an employee who is open for growth.</simpara>
+</listitem>
+<listitem>
+<simpara>Experienced with the latest cutting edge development tools and procedures.</simpara>
+</listitem>
+<listitem>
+<simpara>Ready for taking up new challenges.</simpara>
+</listitem>
+</itemizedlist>
+</section>
+</article>

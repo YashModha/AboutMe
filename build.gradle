@@ -1,0 +1,76 @@
+buildscript {
+	ext {
+		springBootVersion = '1.5.3.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+		jcenter()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+		classpath("org.asciidoctor:asciidoctor-gradle-plugin:1.5.3")
+		classpath ("org.ajoberstar:gradle-git-publish:0.2.1")
+		classpath 'org.asciidoctor:asciidoctorj-pdf:1.5.0-alpha.15'
+	}
+}
+
+plugins {
+	id 'org.asciidoctor.convert' version '1.5.3'
+}
+
+apply plugin: 'groovy'
+apply plugin: 'eclipse'
+apply plugin: 'org.asciidoctor.convert'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'org.ajoberstar.git-publish'
+
+version = '0.0.1-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+}
+
+asciidoctorj {
+	version = '1.5.7'
+}
+
+
+asciidoctor {
+	backends 'html5', 'docbook', 'pdf'
+	attributes \
+			'sourcedir': project.sourceSets.main.groovy.srcDirs[0],
+			'source-highlighter': 'coderay',
+			'imagesdir': './images',
+			'toc': 'left',
+			'icons': 'font',
+			'setanchors': '',
+			'idprefix': '',
+			'idseparator': '-',
+			'docinfo1': '',
+			'pdf-stylesdir': 'theme',
+			'pdf-style': 'custom'
+}
+
+dependencies {
+	compile('org.springframework.boot:spring-boot-starter')
+	compile('org.codehaus.groovy:groovy-all')
+	testCompile('org.springframework.boot:spring-boot-starter-test')
+}
+
+gitPublish {
+
+	repoUri = 'https://github.com/YashModha/AboutMe.git'
+
+	branch = 'gh-pages'
+
+	contents {
+		from 'build/asciidoc/html5'
+
+	}
+
+	commitMessage = 'Publishing a new page'
+}
+
+gitPublishPush.dependsOn asciidoctor

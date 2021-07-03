@@ -1,0 +1,25 @@
+= README
+
+This is ascii doctor resume
+
+== Getting Started
+
+Update the docs in ../src/docs/asciidoc and run the following command
+
+[source, bash]
+--
+./gradlew asciidoctor
+--
+
+The output for the docs will be in ../build/asciidoc/html5/index.html
+
+To publish the pages to git pages you can use the following command
+
+== Publishing to GitPages
+
+[source, bash]
+--
+./gradlew clean gitPublishPush
+--
+
+NOTE: The page can be viewed on https://jaimodha.github.io/readme
